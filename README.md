@@ -12,3 +12,7 @@ pip install -r requirements.txt
 streamlit run dashboard.py
 ```
 
+## Deployed on Streamlit Cloud
+```
+https://lumos-bike-sharing.streamlit.app/
+```

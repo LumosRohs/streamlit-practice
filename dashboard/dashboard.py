@@ -31,7 +31,7 @@ def create_day_counts_df(day_df):
 
     return counts_df
 
-day_df = pd.read_csv("day.csv")
+day_df = pd.read_csv("dashboard/day.csv")
 
 day_df.sort_values(by="dteday", inplace=True)
 day_df.reset_index(inplace=True)
